@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/goods/goods",
+    "pages/person/person",
+    "pages/my/my",
+    "pages/info/info",
+    "pages/orderList/orderList"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FDFDFD"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#343434",
+    "borderStyle": "white",
+    "backgroundColor": "#F7F7F7",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./icons/shouye.png",
+        "selectedIconPath": "./icons/shouye_click.png"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "内容",
+        "iconPath": "./icons/baihuochaoshi.png",
+        "selectedIconPath": "./icons/baihuochaoshi_click.png"
+      },
+
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./icons/fav.png",
+        "selectedIconPath": "./icons/fav_click.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
