@@ -1,0 +1,6 @@
+<view class="container data-v-0be17cc6">
+  <image class="w-100 data-v-0be17cc6" src="https://xyq-1324178530.cos.ap-guangzhou.myqcloud.com/wallhaven-jxl31y_2345x2251.png" mode="widthFix" bindload="onImageLoad"></image>
+  <view class="content data-v-0be17cc6">
+    <view class="font-size-base data-v-0be17cc6">灵感之茶，中国制造</view>
+  </view>
+</view>
