@@ -1,60 +1,9 @@
-<view class="top-bg"></view>
-<view class="box">
-  <!-- 头像 -->
-  <view class="head-box">
-    <button open-type="chooseAvatar" class="avatar" bindchooseavatar="chooseAvatar">
-      <image class="head-img" src="{{login.avatar}}" mode="widthFix"></image>
-    </button>
-    <view class="tip">{{login.show?'欢迎使用':'当前未登录，请登录！'}}</view>
-  </view>
-  <!-- 第一部分列表 -->
-  <view>
-    <button class="row" style="width: 100%;" bindtap="basicClick">
-      <view class="left">
-        <text class="text">基本信息</text>
-      </view>
-      <view class="right">》</view>
-    </button>
-    <button class="row" style="width: 100%;" bindtap="feedbackClick">
-      <view class="left">
-        <text class="text">匿名反馈</text>
-      </view>
-      <view class="right">》</view>
-    </button>
-    <button class="row" style="width: 100%;border-bottom: none;" bindtap="aboutClick">
-      <view class="left">
-        <text class="text">关于我们</text>
-      </view>
-      <view class="right">》</view>
-    </button>
-  </view>
+<view class="container data-v-0be17cc6">
+<view class="content data-v-0be17cc6">
+<view data-event-opts="{{[['tap',[['openLoginPopup',['$event']]]]]}}" class="welcome data-v-0be17cc6" bindtap="__e">
+<view class="data-v-0be17cc6">{{"你好 "+(isLogin?userInfo.nickName:'立即登录开启星球之旅')}}</view>
+<view class="font-size-base data-v-0be17cc6">三山工作室欢迎您</view>
 </view>
-<!-- 第二部分列表 -->
-<view class="end">
-  <button open-type="share" class="row" style="width: 100%;">
-    <view class="left">
-      <text class="text">分享好友</text>
-    </view>
-    <view class="right">》</view>
-  </button>
-  <button open-type="contact" class="row" style="width: 100%;border-bottom: none;">
-    <view class="left">
-      <text class="text">在线客服</text>
-    </view>
-    <view class="right">》</view>
-  </button>
+<view class="member-card data-v-0be17cc6"><view class="info data-v-0be17cc6"><view class="title data-v-0be17cc6"><view data-event-opts="{{[['tap',[['openBenefits',['$event']]]]]}}" class="wenyue-font data-v-0be17cc6" bindtap="__e">Svip</view><view data-event-opts="{{[['tap',[['openMember',['$event']]]]]}}" class="tips data-v-0be17cc6" bindtap="__e"><view class="data-v-0be17cc6">成为星球会员享双倍积分</view><image src="/static/images/my/icon_arrow.png" class="data-v-0be17cc6"></image></view></view><image class="avatar data-v-0be17cc6" src="https://xyq-1324178530.cos.ap-guangzhou.myqcloud.com/10007.jpg" data-event-opts="{{[['tap',[['info',['$event']]]]]}}" bindtap="__e"></image><view class="badage data-v-0be17cc6">Lv1</view></view></view>
 </view>
-<!-- 第三部分列表 -->
-<view class="end">
-  <button wx:if="{{login.line}}" bindtap="exitClick" class="row" style="width: 100%;border-bottom: none;">
-    <view class="left">
-      <text class="text">退出登录</text>
-    </view>
-  </button>
-  <button class="row" open-type="chooseAvatar" bindchooseavatar="chooseAvatar" style="width: 100%;border-bottom: none;" wx:else>
-    <view class="left">
-      <text class="text">立即登录</text>
-    </view>
-  </button>
-</view>
-
+<list-cell vue-id="704e9d00-1" hover="{{true}}" arrow="{{true}}" data-event-opts="{{[['^click',[['myCode']]]]}}" bind:click="__e" class="data-v-0be17cc6" bind:__l="__l" vue-slots="{{['default']}}"><view class="list-cell-wrapper data-v-0be17cc6"><view view="title" class="data-v-0be17cc6">会员码</view><view class="subtitle data-v-0be17cc6">门店扫码积分、钱包和有礼卡支持</view></view></list-cell><list-cell vue-id="704e9d00-2" hover="{{true}}" arrow="{{true}}" class="data-v-0be17cc6" bind:__l="__l" vue-slots="{{['default']}}"><view class="list-cell-wrapper data-v-0be17cc6"><view view="title" class="data-v-0be17cc6">兑换中心</view><view class="subtitle data-v-0be17cc6">兑换星球会员、优惠券和有礼卡</view></view></list-cell><list-cell vue-id="704e9d00-3" hover="{{true}}" arrow="{{true}}" class="data-v-0be17cc6" bind:__l="__l" vue-slots="{{['default']}}"><view class="list-cell-wrapper data-v-0be17cc6"><view view="title" class="data-v-0be17cc6">星球封面</view></view></list-cell><list-cell vue-id="704e9d00-4" hover="{{true}}" arrow="{{true}}" class="data-v-0be17cc6" bind:__l="__l" vue-slots="{{['default']}}"><view class="list-cell-wrapper data-v-0be17cc6"><view view="title" class="data-v-0be17cc6">联系客服</view></view></list-cell><list-cell vue-id="704e9d00-5" hover="{{true}}" arrow="{{true}}" class="data-v-0be17cc6" bind:__l="__l" vue-slots="{{['default']}}"><view class="list-cell-wrapper data-v-0be17cc6"><view view="title" class="data-v-0be17cc6">消息中心</view></view></list-cell><list-cell vue-id="704e9d00-6" hover="{{true}}" arrow="{{true}}" last="{{true}}" class="data-v-0be17cc6" bind:__l="__l" vue-slots="{{['default']}}"><view class="list-cell-wrapper data-v-0be17cc6"><view view="title" class="data-v-0be17cc6">更多</view></view></list-cell><login-popup vue-id="704e9d00-7" data-ref="loginPopup" class="data-v-0be17cc6 vue-ref" bind:__l="__l"></login-popup></view>

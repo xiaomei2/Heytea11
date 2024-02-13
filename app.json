@@ -6,8 +6,15 @@
     "pages/goods/goods",
     "pages/person/person",
     "pages/my/my",
-    "pages/info/info",
-    "pages/orderList/orderList"
+    "pages/my/wallet",
+    "pages/my/mall",
+    "pages/info/info", 
+    "pages/my/code",
+    "pages/my/info",
+    "pages/my/member",
+    "pages/orderList/orderList",
+    "pages/my/benefits",
+    "pages/my/member-benefit"
   ],
   "subPackages": [],
   "window": {
