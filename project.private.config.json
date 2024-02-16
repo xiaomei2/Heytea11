@@ -3,6 +3,8 @@
   "projectname": "Heytea",
   "setting": {
     "compileHotReLoad": true,
-    "urlCheck": false
+    "urlCheck": false,
+    "bigPackageSizeSupport": true,
+    "autoAudits": false
   }
 }

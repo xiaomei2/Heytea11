@@ -1,7 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "list-cell": "/components/list-cell/list-cell",
-    "login-popup": "/pages/my/components/login-popup"
-  }
-}

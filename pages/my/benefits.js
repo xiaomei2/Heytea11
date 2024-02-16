@@ -22,10 +22,7 @@ createPage(_benefits.default);
 /***/ }),
 
 /***/ 238:
-/*!******************************************************!*\
-  !*** D:/xinchunproject/heytea/pages/my/benefits.vue ***!
-  \******************************************************/
-/*! no static exports found */
+
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -85,10 +82,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 240:
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/xinchunproject/heytea/pages/my/benefits.vue?vue&type=template&id=1afbdc56&scoped=true& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns, recyclableRender, components */
+
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

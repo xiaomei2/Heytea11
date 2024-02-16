@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "个人资料",
+  "navigationBarTitleText": "个人中心",
   "usingComponents": {
     "list-cell": "/components/list-cell/list-cell",
     "login-popup": "/pages/my/components/login-popup"

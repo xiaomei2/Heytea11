@@ -199,7 +199,7 @@
   //
   //
   //
-  //
+   /*轮播图**/
   var _default = {
     data: function data() {
       return {

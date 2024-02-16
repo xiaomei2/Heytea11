@@ -228,11 +228,6 @@ var _default = {
         url: '/pages/task-center/task-center'
       });
     },
-    openMember: function openMember() {
-      uni.navigateTo({
-        url: '/pages/my/member'
-      });
-    },
     myCode: function myCode() {
       uni.navigateTo({
         url: '/pages/my/code'

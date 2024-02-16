@@ -1,10 +1,11 @@
 {
   "description": "项目配置文件",
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
+  "libVersion": "2.28.0",
   "setting": {
+    "packOptions": {
+      "ignore": [],
+      "include": []
+    },
     "bundle": false,
     "userConfirmedBundleSwitch": false,
     "urlCheck": true,
@@ -18,36 +19,44 @@
     "minified": true,
     "autoAudits": false,
     "newFeature": false,
-    "uglifyFileName": false,
+    "uglifyFileName": true,
     "uploadWithSourceMap": true,
     "useIsolateContext": true,
     "nodeModules": false,
     "enhance": true,
     "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "useApiHostProcess": true,
     "showShadowRootInWxmlPanel": true,
     "packNpmManually": false,
     "enableEngineNative": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./"
+      }
+    ],
+    "minifyWXSS": false,
     "showES6CompileOption": false,
-    "minifyWXML": true,
+    "minifyWXML": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "ignoreUploadUnusedFiles": true,
+    "condition": false,
+    "compileWorklet": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.19.4",
   "appid": "wx14b427b9a78ccdcd",
-  "projectname": "miniprogram-92",
   "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
   "ignoreDevUnusedFiles": false,
-  "ignoreUploadUnusedFiles": false
+  "ignoreUploadUnusedFiles": false,
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  }
 }
