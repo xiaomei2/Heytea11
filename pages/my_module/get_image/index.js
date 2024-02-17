@@ -58,7 +58,7 @@ Page({
     }else if(type==4){
       url="https://img.xjh.me/random_img.php?type=bg&ctype=acg&return=302";
     }else if(type==2){
-      url="https://api.btstu.cn/sjbz/api.php";
+      url="https://www.dmoe.cc/random.php";
     }
     const filePath = getApp().globalData.cacheFileDir + "/" + "RandomPic_" + new Date().getTime() + ".jpg";
     wx.downloadFile({

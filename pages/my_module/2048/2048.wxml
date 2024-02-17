@@ -4,10 +4,10 @@
       加载中...
     </loading>
     <view class="heading" style="width: 508rpx; height: 147rpx; display: block; box-sizing: border-box">
-      <text class="title">2048</text>
-      <view class="scores-container" style="width: 267rpx; height: 142rpx; display: block; box-sizing: border-box">
-        <view class="score-container" style="position: relative; left: -15rpx; top: 0rpx; width: 111rpx; height: 93rpx; display: inline-block; box-sizing: border-box">{{score}}</view>
-        <view class="best-container" style="position: relative; left: -2rpx; top: 0rpx; width: 111rpx; height: 93rpx; display: inline-block; box-sizing: border-box">{{highscore}}</view>
+      
+      <view class="scores-container" style="width: 508rpx; height: 142rpx; display: block; box-sizing: border-box">
+        <view class="score-container" style="position: relative; left: -102rpx; top: 0rpx; width: 196rpx; height: 93rpx; display: inline-block; box-sizing: border-box">{{score}}</view>
+        <view class="best-container" style="position: relative; left: 1rpx; top: 0rpx; width: 196rpx; height: 93rpx; display: inline-block; box-sizing: border-box">{{highscore}}</view>
       </view>
     </view>
 

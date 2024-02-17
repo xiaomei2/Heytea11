@@ -5,6 +5,7 @@
     "compileHotReLoad": true,
     "urlCheck": false,
     "bigPackageSizeSupport": true,
-    "autoAudits": false
+    "autoAudits": false,
+    "preloadBackgroundData": false
   }
 }
